@@ -1,7 +1,7 @@
-diff --git a/hci_core_original.c b/hci_core_original.c
+diff --git a/hci_core.c b/hci_core.c
 index a39ed39..883235d 100644
---- a/hci_core_original.c
-+++ b/hci_core_original.c
+--- a/hci_core.c
++++ b/hci_core.c
 @@ -149,7 +149,6 @@ static int hci_init1_req(struct hci_request *req, unsigned long opt)
  static void bredr_setup(struct hci_request *req)
  {
